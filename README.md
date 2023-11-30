@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+In this project, I will observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. This project will provide me with a greater understanding of how to create and use resources in Microsoft Azure. Also, it will show me hands-on how network traffic is transmitted and received between virtual machines. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -21,10 +21,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a resource group within Azure subscription including a virtual machine running Windows 10 and another virtual machine running Linux Ubuntu.
+- Observe network traffic (ICMP, SSH, DHCP, DNS, and RDP) between virtual machines using WireShark application.
+- Generate a perpetual ping from one virtual machine to the other and use the Network Security Group within the Azure application to disable inbound ICMP traffic.
+- Delete resource group and subsequent virtual machines after the lab is completed to prevent Azure subscription costs.
 
 <h2>Actions and Observations</h2>
 
