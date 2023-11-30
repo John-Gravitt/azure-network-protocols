@@ -29,11 +29,11 @@ In this project, I will observe various network traffic to and from Azure Virtua
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/dad552b8-2701-480f-9771-156b734262e2)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Begin the project by navigating to Microsoft Azure, then create a resource group within the Azure subscription. Create one virtual machine operating on Windows 10 and another virtual machine operating on Linux Ubuntu. Observe that the NetworkWatcher resource group was created at the same time as the virtual machines.
 <br />
 
 <p>
