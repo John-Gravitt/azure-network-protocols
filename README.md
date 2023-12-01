@@ -3,7 +3,7 @@
 </p>
 
 <h1> Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines </h1>
-In this project, I will observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. This project will provide me with a greater understanding of how to create and use resources in Microsoft Azure. Also, it will show me hands-on how network traffic is transmitted and received between virtual machines. <br />
+This project will be a walkthrough on how I observed various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. The intended goal of this project is to provide me with a greater understanding of how to create and use resources in Microsoft Azure. Additionally, show me hands-on how network traffic is transmitted and received between virtual machines. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -63,7 +63,7 @@ In WireShark filter for ICMP (no port) traffic by using the search bar at the to
 <img src= "https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/5df43769-8f37-4d22-b1f0-e15f93edb9da" height="80%" width="80%" />
 </p>
 <p>
-To stop ICMP traffic from being received by virtual machine #2 (10.0.0.5), use the Network Security Group within Azure to set up a firewall rule to prevent inbound ICMP traffic. Observe that ICMP traffic will fail when pinging virtual machine #2.
+To stop ICMP traffic from being received by virtual machine #2 (10.0.0.5), use the Network Security Group within Azure to set up a firewall rule to prevent inbound ICMP traffic. Observe that ICMP traffic will fail when sending a perpetual ping to virtual machine #2.
 </p>
 <br />
 
