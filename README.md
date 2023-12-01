@@ -76,7 +76,7 @@ Filter for SSH (tcp.port == 22) in WireShark. Using Command Prompt in virtual ma
 <br />
 
 <p>
-<img src= "https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/2d84492d-5266-419c-adf6-cc379284e50e" height="80%" width="80%" />
+<img src= "https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/dd42d3e8-8ef6-439f-84aa-f1016a7550aa" height="80%" width="80%" />
 </p>
 <p>
 Filter for DHCP (udp.port == 67/68) in WireShark. Send the command ipconfig /renew on virtual machine #1. Observe that DHCP traffic via WireShark as the IP Address for virtual machine #1 is renewed.
