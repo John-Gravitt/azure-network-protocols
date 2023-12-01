@@ -22,8 +22,8 @@ In this project, I will observe various network traffic to and from Azure Virtua
 <h2>High-Level Steps</h2>
 
 - Create a resource group within Azure subscription including a virtual machine running Windows 10 and another virtual machine running Linux Ubuntu.
-- Observe network traffic (ICMP, SSH, DHCP, DNS, and RDP) between virtual machines using WireShark application.
 - Generate a perpetual ping from one virtual machine to the other and use the Network Security Group within the Azure application to disable inbound ICMP traffic.
+- Observe network traffic (ICMP, SSH, DHCP, DNS, and RDP) between virtual machines using WireShark application.
 - Delete resource group and subsequent virtual machines after the lab is completed to prevent Azure subscription costs.
 
 <h2>Actions and Observations</h2>
@@ -39,23 +39,15 @@ Begin the project by navigating to Microsoft Azure, then create a resource group
 <img src= " " height="80%" width="80%" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log on and ICMP
 </p>
 <br />
 
 <p>
-<img src= "![image](https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/5df43769-8f37-4d22-b1f0-e15f93edb9da)" height="80%" width="80%" />
+<img src= "https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/5df43769-8f37-4d22-b1f0-e15f93edb9da" height="80%" width="80%" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src= " " height="80%" width="80%" />
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Deny ICMP
 </p>
 <br />
 
@@ -63,14 +55,38 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src= " " height="80%" width="80%" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+SSH
 </p>
 <br />
 
 <p>
-<img src= "![image](https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/42c407d8-2f3c-4aa8-b5a4-800f845257ca)" height="80%" width="80%" />
+<img src= "https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/2d84492d-5266-419c-adf6-cc379284e50e" height="80%" width="80%" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+DHCP
+</p>
+<br />
+
+<p>
+<img src= " " height="80%" width="80%" />
+</p>
+<p>
+DNS
+</p>
+<br />
+
+<p>
+<img src= " " height="80%" width="80%" />
+</p>
+<p>
+RDP
+</p>
+<br />
+
+<p>
+<img src= "https://github.com/John-Gravitt/azure-network-protocols/assets/152338722/42c407d8-2f3c-4aa8-b5a4-800f845257ca" height="80%" width="80%" />
+</p>
+<p>
+Delete resource group
 </p>
 <br />
