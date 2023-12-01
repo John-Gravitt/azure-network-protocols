@@ -3,7 +3,7 @@
 </p>
 
 <h1> Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines </h1>
-This project will be a walkthrough on how I observed various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. The intended goal of this project is to provide me with a greater understanding of how to create and use resources in Microsoft Azure. Additionally, show me hands-on how network traffic is transmitted and received between virtual machines. <br />
+This project will be a walkthrough on how I observed various network traffic to and from Azure Virtual Machines with Wireshark as well as experimented with Network Security Groups. The intended goal of this project is to provide me with a greater understanding of how to create and use resources in Microsoft Azure. Additionally, show me hands-on how network traffic is transmitted and received between virtual machines. <br />
 
 
 <h2>Environments and Technologies Used</h2>
