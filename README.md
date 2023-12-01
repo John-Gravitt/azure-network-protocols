@@ -16,8 +16,8 @@ This project will be a walkthrough on how I observed various network traffic to 
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Microsoft Windows 10
+- Linux Ubuntu 
 
 <h2>High-Level Steps</h2>
 
