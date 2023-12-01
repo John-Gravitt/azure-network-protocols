@@ -10,7 +10,7 @@ This project will be a walkthrough on how I observed various network traffic to 
 
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
-- Various Command-Line Tools
+- Command Prompt
 - Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
